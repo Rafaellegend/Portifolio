@@ -1,3 +1,3 @@
-# Portifolio de Rafael de Jesus Alves
+# Space 4 Pizza
 
-Aqui será postado, todo e qualquer trabalho feito por Rafael de Jesus Alves, no qual se tem autorização para publicação. 
+Space 4 Pizza é o primeiro projeto feito na faculdade, a ideia original, era ser um portal para os amantes de pizza
