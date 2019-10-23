@@ -1,0 +1,248 @@
+/*##############################################*/
+/*#Sistema dos Correios v5 - 0.1               #*/
+/*#Desenvolvido por: Rafael de Jesus Alves     #*/
+/*#Departamento de Informatica 2019            #*/
+/*##############################################*/
+
+/* Header */
+.header {
+	background-color:yellow;
+	height:100px;
+	margin:-20px 0px 0px 0px;
+}
+.headimgmob{
+	visibility:hidden;
+}
+.headimg1{
+	width:250px;
+	float:left;
+	margin:2px 0px 0px 0px;
+}
+
+.headimg2{
+	width:250px;
+	float:right;
+	margin:20px 0px 0px 0px;
+}
+.headertexthidden{
+	visibility:hidden;
+	position:absolute;
+}
+.headertext{
+	float:left;
+	font-size:30px;
+	position:10px;
+	margin:30px 0px 0px 50px;
+}
+.local{
+	position:absolute;
+	right:100px;
+	top:80px;
+	
+}
+/* Barra de Navegação */
+.navb {
+	text-align:center;
+	width:300px;
+}
+
+.navb:hover {
+	background-color:;
+}
+/* Footer */
+.footer {
+	text-align:center;
+}
+
+/* Tela de Login */
+.login {
+	width:280px;
+	margin:45px auto 0px;
+}
+
+.lgtxt {
+	font-size:25px;
+	text-align:center;
+}
+
+/* Loading Screen */
+.loadingimg{
+	width:28%;
+	position: absolute;
+	left:153px;
+}
+
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) { 
+	.headertext{
+		float:left;
+		font-size:20px;
+		position:10px;
+		margin:30px 0px 0px 50px;
+	}
+	
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) { 
+	.headertext{
+		float:left;
+		font-size:10px;
+		position:absolute;
+	}
+	.headimgmob{
+		visibility:visible;
+		float:left;
+		width:110px;
+		position:absolute;
+	}	
+	.headimg1{
+		visibility: hidden;
+	}	
+
+	.headimg2{
+		visibility: hidden;
+	}
+ }
+ /* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+	.headertext{
+		float:left;
+		font-size:40px;
+		position: absolute;
+		left:60px;
+		margin:30px 0px 0px 50px;
+	}
+	.headimgmob{
+		visibility:visible;
+		float:left;
+		width:110px;
+		position:absolute;
+	}	
+	.headimg1{
+		visibility: hidden;
+	}	
+
+	.headimg2{
+		visibility: hidden;
+	}
+	.navb {
+	text-align:center;
+	width:170px;
+	}
+}
+/* Medium devices (tablets, 835px and up)*/
+@media (min-width: 935px) and (max-width: 991.98px) {
+	.headertext{
+		float:left;
+		font-size:40px;
+		position: absolute;
+	left:200px;
+		margin:30px 0px 0px 50px;
+	}
+	.headimgmob{
+		visibility:visible;
+		float:left;
+		width:110px;
+		position:absolute;
+	}	
+	.headimg1{
+		visibility: visible;
+	}	
+
+	.headimg2{
+		visibility: visible;
+	}
+	.navb {
+	text-align:center;
+	width:170px;
+	}
+}
+/* Medium devices (tablets, 900px and up)*/
+@media (min-width: 934px) and (max-width: 991.98px) {
+	.headertext{
+		float:left;
+		font-size:20px;
+		position:10px;
+		margin:30px 0px 0px 50px;
+	}	
+	.headimg1{
+		width:200px;
+		float:left;
+		margin:2px 0px 0px 0px;
+	}	
+
+	.headimg2{
+		width:200px;
+		float:right;
+		margin:20;
+	}
+	.navb {
+	text-align:center;
+	width:170px;
+	}
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+	.headertext{
+		float:left;
+		font-size:20px;
+		position:10px;
+		margin:30px 0px 0px 50px;
+	}
+	.headimg1{
+		width:225px;
+		float:left;
+		margin:2px 0px 0px 0px;
+	}	
+
+	.headimg2{
+		width:225px;
+		float:right;
+		margin:20;
+	}
+	.navb {
+	text-align:center;
+	width:230px;
+	}
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media only screen and (min-width: 1200px) and (max-width: 1440px) { 
+	.headertext{
+		float:left;
+		font-size:30px;
+		position:10px;
+		margin:30px 0px 0px 50px;
+	}
+	.headimg1{
+		width:250px;
+		float:left;
+		margin:2px 0px 0px 0px;
+	}	
+
+	.headimg2{
+		width:250px;
+		float:right;
+		margin:20px 0px 0px 0px;
+	}
+	.navb {
+		text-align:center;
+		width:300px;
+	}
+}
+
+/* Extra large devices (large desktops, 1400px and up)*/
+@media (min-width: 1400px) { 
+	.headertext{
+		float:left;
+		font-size:38px;
+		position:10px;
+		margin:30px 0px 0px 50px;
+	}
+	.navb {
+		text-align:center;
+		width:340px;
+	}
+}

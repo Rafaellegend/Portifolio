@@ -1,0 +1,218 @@
+@charset UTF-8;
+.texto{
+    text-indent: 15px;
+}
+/*Mobile*/
+    /*lojas*/
+    .pizzarimg{
+    margin:20px 0px 10px 0px;
+}
+.btn-primary{
+        position:relative;
+        left: 10px;
+        top: -46px;
+        
+        
+    }
+.homemanchete{
+    color: white;
+    padding:20px ;
+    background-color: rgba(0, 0, 0, 0.7);
+    
+}
+/*Texto da Noticia*/
+.noticia{ 
+    font-size: 18px;
+    background-color: white;
+    text-align: left;
+    text-indent:30px;
+}
+/*Manchete*/
+h2.manchete{
+    color: white;
+}
+
+
+/*Tablets*/
+@media screen and (min-width: 768px) {
+                /*lojas*/
+    .pizzariname{
+       
+    }
+    .pizzari{
+       
+    }
+    .infopi{
+    
+}
+    .numpi{
+    
+}
+    .pizzarimg{
+    margin: 10px 20px 30px 148px;
+}
+    /*home*/
+    img.home{
+        height:268px;
+        width:670px;
+    }
+     /*botão*/
+    .btn-primary{
+        position: relative;
+        top: -46px;
+        left: 75px;
+        
+        
+    }
+    /*Texto da Noticia*/
+    .noticia{ 
+    margin: 30px 0px 0px 0px;
+    font-size: 15px;
+    background-color: white;
+    text-align: left;
+    text-indent:30px;
+}
+    /*Manchete*/
+    h2.manchete{
+        font-size: 21px;
+        width:338px;
+        height: 70px;
+        top:55px;
+        right: 10px;
+        position: absolute;
+        background-color: rgba(0, 0, 0, 0.57);
+    }
+}
+
+
+/*Notbooks*/
+@media screen and (min-width: 992px) {
+        /*lojas*/
+    .pizzariname{
+        font-size: 25px;
+        width: 200px;
+    }
+    .pizzari{
+        height: 215px;
+    }
+    .infopi{
+    height: 102px;
+    font-size:14px;
+}
+    .numpi{
+    font-size:20px; 
+    position: absolute;
+    top:160px;
+}
+    .pizzarimg{
+    position: absolute;
+    top: 7px;
+    margin:10px 0px 10px -20px;
+}
+        /*botão*/
+    .btn-primary{
+        position: relative;
+        top: -45px;
+        left: 28px;
+        
+        
+    }
+    
+    /*home*/
+    img.home{
+        height:140px;
+        width:450px;
+    }
+    .homemanchete{ 
+    font-size:20px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.59);
+    position: absolute;
+    height:60px; 
+    top:70px;
+    width: 418px;
+    padding:3px 0px 3px 13px;
+}
+    
+    /*Manchete*/
+    h2.manchete{
+        
+        width:370px;
+        height: 70px;
+        top:68px;
+        right: 10px;
+        position: absolute;
+        background-color: rgba(0, 0, 0, 0.57);
+    }
+}
+
+
+/*Monitores*/
+@media screen and (min-width: 1200px) {
+    /*lojas*/
+    .pizzariname{
+        font-size: 25px;
+        width: 200px;
+    }
+    .pizzari{
+        height: 215px;
+    }
+    .infopi{
+    height: 102px;
+    font-size:14px;
+}
+    .numpi{
+    font-size:20px; 
+    position: absolute;
+    top:160px;
+}
+    .pizzarimg{
+    position: relative;
+    top: 0px;
+    margin:10px 0px 10px -20px;
+}
+    
+    /*Home*/
+    img.home{
+        height:173px;
+        width:550px;
+    }
+    /*botão*/
+    .btn-primary{
+        position: relative;
+        top: -45px;
+        left: 52px;     
+    }
+    /*manchete na home*/
+    .homemanchete{ 
+    font-size:25px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.59);
+    position: absolute;
+    height:70px; 
+    top:93px;
+    width: 518px;
+    padding:3px 0px 3px 13px;
+}
+    
+     /*Dicas e Noticias*/
+     /*Texto da Noticia*/
+    .noticia{ 
+    margin: 30px 0px 0px 0px;
+    font-size: 15px;
+    background-color: white;
+    text-align: left;
+    text-indent:30px;
+}
+    /*Manchete*/
+    h2.manchete{
+        font-size: 25px;
+        width:453px;
+        height: 70px;
+        top:101px;
+        right: 10px;
+        position: absolute;
+        background-color: rgba(0, 0, 0, 0.57);
+    }
+}
+
